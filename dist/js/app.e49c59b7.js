@@ -306,8 +306,7 @@
         var n = a("9bd2"),
         r = a("27ae").Base64,
         o = ["html", "php", "css", "go", "java", "js", "json", "txt", "sh", "md"],
-        i = ["mp4", "webm", "mkv", "m3u8"],
-        ii = ["flac", "wav", "mp3", "m4a", "wma", "ogg"],
+        i = ["mp4", "webm", "mkv", "m3u8", "flac", "wav", "mp3", "m4a", "wma", "ogg"],
         c = ["bmp", "jpg", "jpeg", "png", "gif"],
         s = ["pdf"],
         u = function(e) {
