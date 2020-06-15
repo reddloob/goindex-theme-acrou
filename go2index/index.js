@@ -57,7 +57,7 @@ var authConfig = {
 var themeOptions = {
   cdn: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou",
   // 主题版本号
-  version: "2.0.6",
+  version: "2.0.7",
   //可选默认系统语言:en/zh-chs/zh-cht
   languages: "zh-chs",
   render: {
