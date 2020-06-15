@@ -136,7 +136,7 @@ function html(current_drive_order = 0, model = {}) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
   <style>
-    @import url(${themeOptions.cdn}@${themeOptions.version}/dist/style.min.css);
+    @import url(${themeOptions.cdn}@${themeOptions.version}/dist/style.css);
   </style>
   <script>
     window.gdconfig = JSON.parse('${JSON.stringify({
@@ -155,7 +155,7 @@ function html(current_drive_order = 0, model = {}) {
     <div id="app"></div>
     <script src="${themeOptions.cdn}@${
     themeOptions.version
-  }/dist/app.min.js"></script>
+  }/dist/app.js"></script>
 </body>
 </html>
 `;
