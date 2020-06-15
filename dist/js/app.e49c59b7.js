@@ -189,7 +189,7 @@
     s.o = function(e, t) {
         return Object.prototype.hasOwnProperty.call(e, t)
     },
-    s.p = "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/",
+    s.p = "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/",
     s.oe = function(e) {
         throw console.error(e),
         e
@@ -1218,7 +1218,7 @@
         i = a.n(o),
         c = a("c276"),
         s = a("60bb"),
-        u = new i.a("go2index-".concat("2.0.7")),
+        u = new i.a("go2index-".concat("2.0.8")),
         d = r()(u);
         function l(e) {
             var t = e.dbName,
@@ -1316,18 +1316,18 @@
                 NODE_ENV: "production",
                 VUE_APP_I18N_LOCALE: "zh-chs",
                 VUE_APP_I18N_FALLBACK_LOCALE: "en",
-                VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/",
-                VUE_APP_VERSION: "2.0.7",
+                VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/",
+                VUE_APP_VERSION: "2.0.8",
                 VUE_APP_G2INDEX_VERSION: "1.1.1",
-                BASE_URL: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/"
+                BASE_URL: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/"
             }).VUE_APP_API ? Object({
                 NODE_ENV: "production",
                 VUE_APP_I18N_LOCALE: "zh-chs",
                 VUE_APP_I18N_FALLBACK_LOCALE: "en",
-                VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/",
-                VUE_APP_VERSION: "2.0.7",
+                VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/",
+                VUE_APP_VERSION: "2.0.8",
                 VUE_APP_G2INDEX_VERSION: "1.1.1",
-                BASE_URL: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/"
+                BASE_URL: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/"
             }).VUE_APP_API: ""
         });
         c.interceptors.request.use((function(e) {
@@ -1627,18 +1627,18 @@
                     expires: 1
                 };
                 Object.assign(n, a),
-                r.a.set("go2index-".concat("2.0.7", "-").concat(e), t, n)
+                r.a.set("go2index-".concat("2.0.8", "-").concat(e), t, n)
             },
             get: function() {
                 var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "default";
-                return r.a.get("go2index-".concat("2.0.7", "-").concat(e))
+                return r.a.get("go2index-".concat("2.0.8", "-").concat(e))
             },
             getAll: function() {
                 return r.a.get()
             },
             remove: function() {
                 var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "default";
-                return r.a.remove("go2index-".concat("2.0.7", "-").concat(e))
+                return r.a.remove("go2index-".concat("2.0.8", "-").concat(e))
             }
         },
         i = o,
@@ -1651,10 +1651,10 @@
                     NODE_ENV: "production",
                     VUE_APP_I18N_LOCALE: "zh-chs",
                     VUE_APP_I18N_FALLBACK_LOCALE: "en",
-                    VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/",
-                    VUE_APP_VERSION: "2.0.7",
+                    VUE_APP_CDN_PATH: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/",
+                    VUE_APP_VERSION: "2.0.8",
                     VUE_APP_G2INDEX_VERSION: "1.1.1",
-                    BASE_URL: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/"
+                    BASE_URL: "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/"
                 }).VUE_APP_TITLE || "GoIndex";
                 window.document.title = "".concat(t).concat(e ? " | ".concat(e) : "")
             },
@@ -1676,7 +1676,7 @@
     cbd9: function(e, t, a) {
         "use strict";
         function n(e) {
-            var t = "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.7/dist/";
+            var t = "https://cdn.jsdelivr.net/gh/reddloob/goindex-theme-acrou@v2.0.8/dist/";
             return t + e
         }
         a.d(t, "a", (function() {
