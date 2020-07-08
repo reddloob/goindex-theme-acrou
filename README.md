@@ -1,4 +1,8 @@
-修改goindex-theme-acrou/dist/js/app.e49c59b7.js
+添加黑暗模式： goindex-theme-acrou/dist/css/app.0b3f4d4c.css , 搜索 #3d4149
+
+添加播放文件类型：修改goindex-theme-acrou/dist/js/app.e49c59b7.js ，搜索 .MP4
+
+其他修改：修改goindex-theme-acrou/dist/app.js ，更换版本号，如 搜索 @v2.0.9 ，替换为当前发布的版本号
 
 # GoIndex-theme-acrou 
 Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and [Google Drive](https://www.google.com/drive/) will allow you to index you files on the browser on Cloudflare Workers.    
